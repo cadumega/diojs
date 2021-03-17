@@ -7,13 +7,30 @@
 //   alert("menor de idade");
 // }
 
+// var count = 0;
+// while (count <=5 ) {
+//   console.log(count);
+//   count = count + 1;   // count++
+// }
 
 
+// var count = 0;
+// while (count <=5 ) {
+//   console.log(count);
+//   count++   
+// }
 
 
+// var count;
+// for (count = 0 ; count <=5; count++){
+//   alert(count);
+// }
 
 
-
+// var d = new Date();
+// // alert(d.getDay());
+// alert(d.getHours());
+// // alert(d);
 
 
 
