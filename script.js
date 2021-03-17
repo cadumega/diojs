@@ -1,3 +1,43 @@
+//Aula 5 Elementos da página
+
+
+
+
+// Aula 4 Desenvolvendo páginas com JS
+// var n1 = 5;
+// var n2 = 10;
+// function soma (n1,n2) {
+//   return n1 + n2;
+// }
+
+// function validaIdade(idade){
+//   var validar;
+//   if (idade >= 18){
+//     validar = true
+//   }else{
+//     validar = false
+//   }
+//   return validar;
+// }
+
+// var idade = prompt("QUal a sua idade ? ")
+// console.log (validaIdade(idade));
+
+// var validar = 0;    //var global, se colocar dentro que é local, vai imprimir 0
+// function validaIdade(idade){
+//   if (idade >= 18){
+//       validar = true
+//     }else{
+//       validar = false
+//     }
+//     return validar;
+//   }
+
+//   var idade = prompt("QUal a sua idade ? ")
+//   validaIdade(idade);
+//   console.log (validar);
+
+
 // Aula 3 Condicionais, laços de repetição e Date
 
 // var idade = prompt("Qual sua idade? ")      //o que responder irá ser gravado na variável
@@ -12,6 +52,7 @@
 //   console.log(count);
 //   count = count + 1;   // count++
 // }
+
 
 
 // var count = 0;
