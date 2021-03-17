@@ -47,3 +47,50 @@ Considere que você possua o arquivo index.html e você precisa inserir um arqui
 
 Uma ferramenta que não é exclusiva do navegador Google Chrome é a visualização da estrutura da página, os arquivos carregados, mensagens do desenvolvedor, debug e entre outras funções. Quanto a funcionalidade de gerar mensagens do desenvolvedor, considere que uma variável contém o valor "Simplicity is the ultimate sophistication.", uma segunda variável contém o valor "Leonardo da Vinci:". No caso se precisar escrever no console a primeira varíavel, depois a segunda e acrescentar, de forma válida, o seguinte trecho "1425-1519", qual alternativa abaixo está correta?
 console.log(var1 + var2 + 1425 + "-" + 1519);
+
+
+
+__________
+
+
+Você está programando a tela de um jogo. Existem 3 opções de personagens para você escolher e eles são de raças diferentes, sendo um humano, um elfo e um orc. Sempre que você selecionar um personagem, uma tag <p> deve escrever os poderes específicos de cada raça. Sendo assim, avalie as alternativas abaixo e selecione a mais coerente para essa funcionalidade:
+<select onchange="mostrarPoderes(this)"><option value="Humano"></option><option value="Elfo"></option><option value="Orc"></option></select>
+
+
+I- O comando  window.open abre a página em outra janela.
+II – O comando window.location.href abre a página em outra aba. 
+III – O redirecionamento permite que o usuário saia da página atual e vá para outra, seja através da aba ou da janela. 
+Apenas I e III está corretas.
+
+
+Você precisa criar uma tela na qual possua uma espécie de vitrine com vários objetos, cada objeto é um jogo de tabuleiro. A imagem do objeto é a capa da embalagem do jogo. Ao passar o mouse, a pessoa consegue ver o verso da embalagem, mas ao tirar o mouse volta para a capa da embalagem. Ao clicar, a pessoa pode ver fotos do conteúdo do jogo. Sendo assim, qual opção abaixo é mais adequada para o desenvolvimento da vitrine?
+<button id="eldritch_horror" onclick="detalhes(this)" onmouseover="mousesobre(this)" onmouseout="mousefora(this)">Eldritch Horror</button>
+
+Assinale a alternativa que melhor define a ideia de parâmetros de uma função.
+Os parâmetros de uma função são passados durante a chamada da função, podendo cada uma trazer valores de string, inteiro, arrays e entre outros.
+
+Qual a função do evento OnMouseOver?
+Definir a ação quando o usuário passa o mouse sobre o elemento.
+
+Se tratando de funções, assinale a alternativa errada:
+Valores podem ser passados para uma função, que retorna uma variável.
+
+
+Assinale a alternativa que melhor define a diferença entre variável global e local.
+A variável local é declarada dentro de uma função, enquanto a variável global é declarada fora da função e pode ser usada dentro da função.
+
+
+Na estrutura HTML você observa o seguinte comando:
+<body onload="carregou()">
+Qual alternativa abaixo representa a melhor possibilidade?
+A função "carregou" será chamada assim que a página web for carregada, mas seu conteúdo pode ser diverso.
+
+
+Qual o objetivo do evento onChange?
+É disparado quando o valor de um elemento é mudado, como em radiobuttons e checkboxes por exemplo.
+
+
+Você tem uma página de web com vários bichos de pelúcia e quer presentear alguém com um personagem do desenho animado "Ursinhos Carinhosos". Para isso você usa o seguinte código JavaScript:
+document.getElementById("selecionado").innerHTML = "Escolheu: " + nome_personagem.
+Qual alternativa abaixo apresenta uma tag HTML com parâmetros corretos e que se relaciona corretamente a declaração JavaScript?
+<button id="coração_valente" onclick="selecionou()">Coração Valente</button>
